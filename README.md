@@ -123,10 +123,7 @@ This can affect the separability of similar motion classes such as `left_right` 
 - `Left-right.csv`
 - `Rest.csv`
 - `Up-down.csv`
-
-### Colab
-- Training notebook (`.ipynb`)
-
+- 
 ### Arduino
 - Data capture sketch
 - Final gesture classifier sketch
@@ -137,14 +134,3 @@ This can affect the separability of similar motion classes such as `left_right` 
 - `confusion_matrix.png`
 - `training_curves.png`
 - `scaler_values.txt`
-
-## Conclusion
-This project successfully demonstrates a TinyML-based gesture recognition system using feature extraction and real-time on-device inference on Arduino.
-
-The project covers the complete embedded ML workflow:
-- Data collection
-- Feature engineering
-- Model training
-- Model conversion
-- Deployment on the microcontroller
-- Real-time prediction
