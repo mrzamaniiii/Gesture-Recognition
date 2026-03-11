@@ -64,10 +64,9 @@ For each axis:
 - Peak spectral power
 
 This produced:
-
 - 7 features per axis
 - 6 axes
-- Total feature vector size = **42 features**
+- Total feature vector size = 42 features
 
 In Google Colab, frequency-domain features were extracted using PSD-based analysis.  
 For on-device inference, a lightweight approximation of frequency features was implemented to reduce computational cost on the microcontroller.
